@@ -26,7 +26,6 @@ public class SecurityConfig  extends WebSecurityConfigurerAdapter{
 	protected void configure(HttpSecurity http) throws Exception {
 		if (Arrays.asList(env.getActiveProfiles()).contains("test")) {
 			http.headers().frameOptions().disable();
-			
 		}// liberar o app gerenciar o banco de dado h2
 		
 		http.cors().and().csrf().disable();

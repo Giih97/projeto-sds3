@@ -3,7 +3,6 @@
 
 
 ## Projeto
-![image](https://user-images.githubusercontent.com/67397737/117526500-f6c79a00-af9b-11eb-98af-67f978c1ddd8.png)
 ![image](https://user-images.githubusercontent.com/67397737/117526523-28d8fc00-af9c-11eb-9048-3d8f9e45cbb8.png)
 
 

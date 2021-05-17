@@ -29,9 +29,10 @@ git clone <https://github.com/Giih97/projeto-sds3.git>
  yarn start
 
 #### O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+```
 
 
-### 🎲 Rodando o Back End (servidor)
+### Rodando o Back End
 
 ```bash
 #### Clone este repositório
@@ -51,6 +52,7 @@ git clone <https://github.com/Giih97/projeto-sds3.git>
 
 #### O servidor inciará na porta:8080 - acesse <http://localhost:8080>
 
+```
 ## :rocket: Tecnologias 
 
 - [React](https://create-react-app.dev/docs/getting-started)

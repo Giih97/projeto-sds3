@@ -9,21 +9,24 @@
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Java 11 ](). 
+[Git](https://git-scm.com) 
+[Node Js](https://nodejs.org/en/download/)
+[Java 11 ](https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html) 
+[Maven](https://maven.apache.org/download.cgi?WT.mc_id=other-azuredevtips-azureappsdev). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/) para o Front End e para back end o [Eclipse](https://www.eclipse.org/downloads/).
 
 ### Rodando o Front End
 ```bash
 #### Clone este repositório
-git clone <https://github.com/Giih97/projeto-sds3.git>
+$ git clone <https://github.com/Giih97/projeto-sds3.git>
 
 
 #### abrar a pasta frontend
- cd frontend
+ $ cd frontend
 
 
 #### Instale as dependências
- yarn install
+ $ yarn install
 
 #### Execute a aplicação em modo de desenvolvimento
  yarn start
@@ -36,23 +39,30 @@ git clone <https://github.com/Giih97/projeto-sds3.git>
 
 ```bash
 #### Clone este repositório
- git clone <https://github.com/Giih97/projeto-sds3.git>
+$  git clone <https://github.com/Giih97/projeto-sds3.git>
 
 #### Acesse a pasta do projeto no terminal/cmd ou no proprio terminal do editor
- cd backend
+$ cd backend
 
 #### Acesse esse a pasta dsvendas
- cd src/main/java/com/devsuperior/dsvendas/
+$  cd src/main/java/com/devsuperior/dsvendas/
 
 #### Em seguida, utilize o comando para baixar e atualizar dependências: 
- mvn install 
+ $ mvn install 
 
-#### Execute a aplicação em modo de desenvolvimento
- mvn
+#### Execute a aplicação em  desenvolvimento
+$  ./mvnw spring-boot:run
 
-#### O servidor inciará na porta:8080 - acesse <http://localhost:8080>
 
 ```
+
+## Dev em produção
+- Back-end: Heroku
+- Front-end: Netlify
+- Database: Postgresql 12
+
+
+
 ## :rocket: Tecnologias 
 
 - [React](https://create-react-app.dev/docs/getting-started)
